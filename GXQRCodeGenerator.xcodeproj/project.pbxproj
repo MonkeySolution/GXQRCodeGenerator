@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3E4365421AA55C700C52274 /* GXQRCodeGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = C3E4365221AA55C700C52274 /* GXQRCodeGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3E4365E21AA566200C52274 /* CIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E4365A21AA566200C52274 /* CIColorExtension.swift */; };
+		C3E4365F21AA566200C52274 /* CIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E4365B21AA566200C52274 /* CIImageExtension.swift */; };
+		C3E4366021AA566200C52274 /* GXQRCodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E4365C21AA566200C52274 /* GXQRCodeGenerator.swift */; };
+		C3E4366121AA566200C52274 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E4365D21AA566200C52274 /* UIImageViewExtension.swift */; };
+		C3E4366921AA568D00C52274 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E4366821AA568D00C52274 /* AppDelegate.swift */; };
+		C3E4366B21AA568D00C52274 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E4366A21AA568D00C52274 /* ViewController.swift */; };
+		C3E4366E21AA568D00C52274 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3E4366C21AA568D00C52274 /* Main.storyboard */; };
+		C3E4367021AA568F00C52274 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3E4366F21AA568F00C52274 /* Assets.xcassets */; };
+		C3E4367321AA568F00C52274 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3E4367121AA568F00C52274 /* LaunchScreen.storyboard */; };
+		C3E4367921AA578D00C52274 /* GXQRCodeGenerator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E4364F21AA55C700C52274 /* GXQRCodeGenerator.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C3E4364F21AA55C700C52274 /* GXQRCodeGenerator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GXQRCodeGenerator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3E4365221AA55C700C52274 /* GXQRCodeGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXQRCodeGenerator.h; sourceTree = "<group>"; };
+		C3E4365321AA55C700C52274 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3E4365A21AA566200C52274 /* CIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CIColorExtension.swift; sourceTree = "<group>"; };
+		C3E4365B21AA566200C52274 /* CIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CIImageExtension.swift; sourceTree = "<group>"; };
+		C3E4365C21AA566200C52274 /* GXQRCodeGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GXQRCodeGenerator.swift; sourceTree = "<group>"; };
+		C3E4365D21AA566200C52274 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		C3E4366621AA568D00C52274 /* QRCodeGeneratorExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRCodeGeneratorExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3E4366821AA568D00C52274 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C3E4366A21AA568D00C52274 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C3E4366D21AA568D00C52274 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C3E4366F21AA568F00C52274 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C3E4367221AA568F00C52274 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C3E4367421AA568F00C52274 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3E4364C21AA55C700C52274 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3E4366321AA568D00C52274 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3E4367921AA578D00C52274 /* GXQRCodeGenerator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3E4364521AA55C700C52274 = {
+			isa = PBXGroup;
+			children = (
+				C3E4365121AA55C700C52274 /* GXQRCodeGenerator */,
+				C3E4366721AA568D00C52274 /* QRCodeGeneratorExample */,
+				C3E4365021AA55C700C52274 /* Products */,
+				C3E4367821AA578D00C52274 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C3E4365021AA55C700C52274 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3E4364F21AA55C700C52274 /* GXQRCodeGenerator.framework */,
+				C3E4366621AA568D00C52274 /* QRCodeGeneratorExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3E4365121AA55C700C52274 /* GXQRCodeGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				C3E4365A21AA566200C52274 /* CIColorExtension.swift */,
+				C3E4365B21AA566200C52274 /* CIImageExtension.swift */,
+				C3E4365C21AA566200C52274 /* GXQRCodeGenerator.swift */,
+				C3E4365D21AA566200C52274 /* UIImageViewExtension.swift */,
+				C3E4365221AA55C700C52274 /* GXQRCodeGenerator.h */,
+				C3E4365321AA55C700C52274 /* Info.plist */,
+			);
+			path = GXQRCodeGenerator;
+			sourceTree = "<group>";
+		};
+		C3E4366721AA568D00C52274 /* QRCodeGeneratorExample */ = {
+			isa = PBXGroup;
+			children = (
+				C3E4366821AA568D00C52274 /* AppDelegate.swift */,
+				C3E4366A21AA568D00C52274 /* ViewController.swift */,
+				C3E4366C21AA568D00C52274 /* Main.storyboard */,
+				C3E4366F21AA568F00C52274 /* Assets.xcassets */,
+				C3E4367121AA568F00C52274 /* LaunchScreen.storyboard */,
+				C3E4367421AA568F00C52274 /* Info.plist */,
+			);
+			path = QRCodeGeneratorExample;
+			sourceTree = "<group>";
+		};
+		C3E4367821AA578D00C52274 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C3E4364A21AA55C700C52274 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3E4365421AA55C700C52274 /* GXQRCodeGenerator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C3E4364E21AA55C700C52274 /* GXQRCodeGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3E4365721AA55C700C52274 /* Build configuration list for PBXNativeTarget "GXQRCodeGenerator" */;
+			buildPhases = (
+				C3E4364A21AA55C700C52274 /* Headers */,
+				C3E4364B21AA55C700C52274 /* Sources */,
+				C3E4364C21AA55C700C52274 /* Frameworks */,
+				C3E4364D21AA55C700C52274 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GXQRCodeGenerator;
+			productName = GXQRCodeGenerator;
+			productReference = C3E4364F21AA55C700C52274 /* GXQRCodeGenerator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C3E4366521AA568D00C52274 /* QRCodeGeneratorExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3E4367521AA568F00C52274 /* Build configuration list for PBXNativeTarget "QRCodeGeneratorExample" */;
+			buildPhases = (
+				C3E4366221AA568D00C52274 /* Sources */,
+				C3E4366321AA568D00C52274 /* Frameworks */,
+				C3E4366421AA568D00C52274 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QRCodeGeneratorExample;
+			productName = QRCodeGeneratorExample;
+			productReference = C3E4366621AA568D00C52274 /* QRCodeGeneratorExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3E4364621AA55C700C52274 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Majid Hatami Aghdam";
+				TargetAttributes = {
+					C3E4364E21AA55C700C52274 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+					C3E4366521AA568D00C52274 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = C3E4364921AA55C700C52274 /* Build configuration list for PBXProject "GXQRCodeGenerator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3E4364521AA55C700C52274;
+			productRefGroup = C3E4365021AA55C700C52274 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3E4364E21AA55C700C52274 /* GXQRCodeGenerator */,
+				C3E4366521AA568D00C52274 /* QRCodeGeneratorExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3E4364D21AA55C700C52274 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3E4366421AA568D00C52274 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3E4367321AA568F00C52274 /* LaunchScreen.storyboard in Resources */,
+				C3E4367021AA568F00C52274 /* Assets.xcassets in Resources */,
+				C3E4366E21AA568D00C52274 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3E4364B21AA55C700C52274 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3E4365E21AA566200C52274 /* CIColorExtension.swift in Sources */,
+				C3E4365F21AA566200C52274 /* CIImageExtension.swift in Sources */,
+				C3E4366121AA566200C52274 /* UIImageViewExtension.swift in Sources */,
+				C3E4366021AA566200C52274 /* GXQRCodeGenerator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3E4366221AA568D00C52274 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3E4366B21AA568D00C52274 /* ViewController.swift in Sources */,
+				C3E4366921AA568D00C52274 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C3E4366C21AA568D00C52274 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3E4366D21AA568D00C52274 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C3E4367121AA568F00C52274 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3E4367221AA568F00C52274 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3E4365521AA55C700C52274 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C3E4365621AA55C700C52274 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C3E4365821AA55C700C52274 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = S6GL3VTAFF;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = GXQRCodeGenerator/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.monkeysolution.GXQRCodeGenerator;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3E4365921AA55C700C52274 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = S6GL3VTAFF;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = GXQRCodeGenerator/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.monkeysolution.GXQRCodeGenerator;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C3E4367621AA568F00C52274 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S6GL3VTAFF;
+				INFOPLIST_FILE = QRCodeGeneratorExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.monkeysolution.QRCodeGeneratorExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3E4367721AA568F00C52274 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S6GL3VTAFF;
+				INFOPLIST_FILE = QRCodeGeneratorExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.monkeysolution.QRCodeGeneratorExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3E4364921AA55C700C52274 /* Build configuration list for PBXProject "GXQRCodeGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3E4365521AA55C700C52274 /* Debug */,
+				C3E4365621AA55C700C52274 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3E4365721AA55C700C52274 /* Build configuration list for PBXNativeTarget "GXQRCodeGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3E4365821AA55C700C52274 /* Debug */,
+				C3E4365921AA55C700C52274 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3E4367521AA568F00C52274 /* Build configuration list for PBXNativeTarget "QRCodeGeneratorExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3E4367621AA568F00C52274 /* Debug */,
+				C3E4367721AA568F00C52274 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3E4364621AA55C700C52274 /* Project object */;
+}

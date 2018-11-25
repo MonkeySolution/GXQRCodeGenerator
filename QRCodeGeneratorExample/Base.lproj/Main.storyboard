@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="QRCodeGeneratorExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="dLf-J6-dth">
+                                <rect key="frame" x="32" y="256" width="311" height="155.5"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ahb-g6-sSd">
+                                        <rect key="frame" x="0.0" y="0.0" width="151.5" height="155.5"/>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="EGs-q2-GTW">
+                                        <rect key="frame" x="159.5" y="0.0" width="151.5" height="155.5"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Fsi-9c-lZV">
+                                                <rect key="frame" x="0.0" y="0.0" width="151.5" height="73.5"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="9fw-eM-FPq">
+                                                        <rect key="frame" x="0.0" y="0.0" width="151.5" height="32.5"/>
+                                                        <subviews>
+                                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="esQ-3v-Uhu">
+                                                                <rect key="frame" x="0.0" y="0.0" width="72" height="32.5"/>
+                                                            </imageView>
+                                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="b3V-HU-FhY">
+                                                                <rect key="frame" x="80" y="0.0" width="71.5" height="32.5"/>
+                                                            </imageView>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="clz-cl-mBB">
+                                                        <rect key="frame" x="0.0" y="40.5" width="151.5" height="33"/>
+                                                        <subviews>
+                                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gbq-C5-1Es">
+                                                                <rect key="frame" x="0.0" y="0.0" width="72" height="33"/>
+                                                            </imageView>
+                                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="A8h-vL-aMw">
+                                                                <rect key="frame" x="80" y="0.0" width="71.5" height="33"/>
+                                                            </imageView>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                            </stackView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="05E-jr-RkX">
+                                                <rect key="frame" x="0.0" y="81.5" width="151.5" height="74"/>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="dLf-J6-dth" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="MLV-86-2nW"/>
+                            <constraint firstItem="dLf-J6-dth" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="32" id="Pvj-LC-yii"/>
+                            <constraint firstItem="dLf-J6-dth" firstAttribute="width" secondItem="dLf-J6-dth" secondAttribute="height" multiplier="2:1" id="Ub3-73-2g1"/>
+                            <constraint firstAttribute="trailing" secondItem="dLf-J6-dth" secondAttribute="trailing" constant="32" id="i8D-ZK-oJa"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageViewLarge" destination="ahb-g6-sSd" id="cI6-WL-fuB"/>
+                        <outlet property="imageViewMedium" destination="05E-jr-RkX" id="K76-Td-b6U"/>
+                        <outlet property="imageViewSmall1" destination="esQ-3v-Uhu" id="1fu-P5-IkZ"/>
+                        <outlet property="imageViewSmall2" destination="b3V-HU-FhY" id="tpE-Ue-F11"/>
+                        <outlet property="imageViewSmall3" destination="gbq-C5-1Es" id="xER-GB-VsH"/>
+                        <outlet property="imageViewSmall4" destination="A8h-vL-aMw" id="tna-Vs-fci"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
