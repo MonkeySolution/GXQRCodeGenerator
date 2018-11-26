@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
   spec.swift_version = "4.2"
   spec.name         = "GXQRCodeGenerator"
-  spec.version      = "1.0.10"
+  spec.version      = "1.0.12"
   spec.summary      = "Generates QRCode by input string"
   spec.description  = "Generate QRCodes and customize their appearance."
 
